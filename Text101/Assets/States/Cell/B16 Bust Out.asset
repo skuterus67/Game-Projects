@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B16 Bust Out
+  m_EditorClassIdentifier: 
+  storyText: "I hit the wall as hard as possible with my shoulder and fall to the
+    other side. The guard sees that and quickly gets into the corridor. I have to
+    stand up quickly and run as fast as I can if I want to ever be free again!\r\n\r\n1.
+    Run towards the exit"
+  nextStates:
+  - {fileID: 11400000, guid: 42a0602c5a7e51643a827cb45270ddbe, type: 2}

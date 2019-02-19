@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B13 Scrub Quickly
+  m_EditorClassIdentifier: 
+  storyText: "I start scrubbing to finish destroying the wall before the guard finds
+    my bucket. I manage to take out three more bricks, but then he looks inside my
+    cell.\r\n\r\n\"What the hell are you doing? Stand away from the wall, immediately!\"\r\n\r\nHe
+    is furious. I'm done and if I do nothing, this will be my end. He reaches for
+    the keys to open my cell and finish me. What can I do?\r\n\r\n1. When he enters,
+    hit him with a brick\r\n\r\n2. The wall is weak enough, bust through!"
+  nextStates:
+  - {fileID: 11400000, guid: 1cd406ade35102845ac0c4d9348dd5c9, type: 2}
+  - {fileID: 11400000, guid: afeceb0c202cf864b9995ee9e272ef3e, type: 2}

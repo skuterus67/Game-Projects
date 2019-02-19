@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B3 Look Around
+  m_EditorClassIdentifier: 
+  storyText: "I look around the cell ad notice, that part of one wall has been scrubbed
+    and bare bricks are showing. Perhaps I can use the handle to scrub off some more
+    grout and destroy the wall? If, of course, this is a task to be made in one night.\r\nOn
+    the other hand, the same thing can be done with the bars in the window. The window
+    isn't so big, but I should fit without major problems. But it's easier to be seen
+    getting out through the window than entering the wall...\r\n\r\nWhat should I
+    do?\r\n1. Try to destroy the wall\r\n2. Try to open the window"
+  nextStates:
+  - {fileID: 11400000, guid: 2dc8b93d05e69f843b69132585d046db, type: 2}
+  - {fileID: 11400000, guid: fbdfc8e8cd046ec4fa476dd56aa75702, type: 2}

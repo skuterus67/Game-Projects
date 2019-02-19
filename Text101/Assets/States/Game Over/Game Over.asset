@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: Game Over
+  m_EditorClassIdentifier: 
+  storyText: 'In the morning I am taken to the main square of the town, where there
+    are gallows ready for me. There are lots of guards there and my hands are tied,
+    giving me no possibility of escape. I hopelessly climb the gallows and then they
+    put the rope around my neck. The executioner opens the trap door beneath my feet
+    and as I fruitlessly try to gasp for some air, I wonder, what things could I have
+    done differently to avoid this fate...
+
+
+    1. Start again
+
+    2. Return to the intro board'
+  nextStates:
+  - {fileID: 11400000, guid: 93b7a4cd226960843989fb54e3cb3026, type: 2}
+  - {fileID: 11400000, guid: 839744097a272204e9352d47b3288b7c, type: 2}

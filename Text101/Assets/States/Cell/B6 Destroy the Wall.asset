@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B6 Destroy the Wall
+  m_EditorClassIdentifier: 
+  storyText: "Finally, after some time I am able to take out a brick from the wall.
+    I can see a corridor, there must be another way right by my cell. I should be
+    careful, though, the guard may pass this way any second now...\r\n\r\nAlthough
+    it looks like I have found my way out, it still can go wrong somewhere. I think
+    I should be more cautious from now on...\r\n\r\n1. Continue removing bricks from
+    the wall\r\n\r\n2. Look through the barred gate and try to localise the guard"
+  nextStates:
+  - {fileID: 11400000, guid: f5b247420c444684abc884622c7a0a45, type: 2}
+  - {fileID: 11400000, guid: acd592034ce44b149bc05d7af7042e83, type: 2}

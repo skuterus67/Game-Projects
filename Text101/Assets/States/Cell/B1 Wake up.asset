@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B1 Wake up
+  m_EditorClassIdentifier: 
+  storyText: "I finally wake up, in the middle of the night. The moon is shining brightly
+    thorugh the barred window above my head. Due to my injuries I can barely move
+    and everything is spinning. While trying to get up, I vomit into the bucket that
+    was by the bed. It's handle is easy to remove and quite sharp. I take it, maybe
+    it can be useful. But standing straight is almost impossible to me due to the
+    pain i feel in my chest.\r\n\r\nThere is still time. Maybe I can find some way
+    to escape...\r\n\r\n1. Try to pick lock with a handle\r\n\r\n2. Look around the
+    room for some way out\r\n\r\n3. Provoke guard once more and try to stab him with
+    a handle"
+  nextStates:
+  - {fileID: 11400000, guid: 08f23081a9d85f44a8e270902880e62f, type: 2}
+  - {fileID: 11400000, guid: c2571e06987b02742b96ffadea5ecca3, type: 2}
+  - {fileID: 11400000, guid: 5dcb41e5f0316e440b771638a9be306d, type: 2}

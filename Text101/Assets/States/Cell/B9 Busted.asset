@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B9 Busted
+  m_EditorClassIdentifier: 
+  storyText: "As soon as my head sticks out through the hole in the wall, I am being
+    pulled out by a guard, who apparently has been waiting for me this entire time
+    just beside the hole.\r\n\r\n\"Well, I was starting to grow impatient. What were
+    you doing so long? Nevermind, because now I'm going to put you in another cell
+    and just to be sure, I'm gonna keep my eye on you for the rest of the night.\r\n\r\nAnd
+    he does. There is no way of doing anything toward my escape, I can only count
+    long hours before my execution...\r\n1. Wait until morning"
+  nextStates:
+  - {fileID: 11400000, guid: 0731bbbb940fe8540855b2eb3078f5b5, type: 2}

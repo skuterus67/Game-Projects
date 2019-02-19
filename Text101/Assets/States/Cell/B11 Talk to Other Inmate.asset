@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B11 Talk to Other Inmate
+  m_EditorClassIdentifier: 
+  storyText: "\"Psst! Hey! Is anyone there?\" I ask the potential inmate. After a
+    while a face appears behind the bars, but it's all covered in bruises, cuts and
+    blood. For all I see, this guy is barely moving at all. There is no way that he
+    can help me. I should just leave him alone.\r\n\r\n1. Do something loud to attract
+    guard"
+  nextStates:
+  - {fileID: 11400000, guid: 5e2f7c2e0d62d41479661032efb2088a, type: 2}

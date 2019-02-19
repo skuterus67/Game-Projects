@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B2 Lock Pick
+  m_EditorClassIdentifier: 
+  storyText: "The sound of picked lock echoes through a quiet hallway and, unfortunately,
+    draws attention of the guard. \"Stop that immediately!\", he shouts, \"don't you
+    have enough? It looks like I have to sit here whole night watching you.\"\r\n\r\nAnd
+    he does. There is no way of doing anything toward my escape, I can only count
+    long hours before my execution...\r\n\r\n1. Wait until morning"
+  nextStates:
+  - {fileID: 11400000, guid: 0731bbbb940fe8540855b2eb3078f5b5, type: 2}

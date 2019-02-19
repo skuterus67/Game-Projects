@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: A2 Call for Help
+  m_EditorClassIdentifier: 
+  storyText: "I scream at the top of my lungs: \"Help! Release me!\" and after a while
+    a guard approaches me with a mean look on his face.\r\n\"Shut up, prisoner!\"
+    he yells and rattles the bars of my cell. \"There's no one here to help you!\"\r\nI
+    can see the keys dangling by his side, but there's no way of reaching them through
+    the door. But the guard seems to be short-tempered. Maybe if I'll make him enter,
+    I'll be able to snatch them?\r\n\r\nWhat should I do next?\r\n1. Spit in the face
+    of a guard\r\n2. Back away from the door and look around the cell"
+  nextStates:
+  - {fileID: 11400000, guid: 7a5ce1ca98b3f0b4d9a0c8779402fc38, type: 2}
+  - {fileID: 11400000, guid: dc8cd6145510fe244a05744450ba65dc, type: 2}

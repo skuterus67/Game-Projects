@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B15 Hit the Guard
+  m_EditorClassIdentifier: 
+  storyText: "I grab one of the loose bricks and as soon as the guard enters the cell,
+    I charge at him and hit him in the head with it. He falls to his knees, so I hit
+    again, and again, and again. The brick eventually breaks, but so does his head.
+    I look at myself and see that I'm covered in blood. The dead body of the guard
+    lies by my feet.\r\n\r\nI wait a moment to chill out and listen for anything.
+    But nobody else comes, so I start to walk carefully towards the exit. For some
+    reason, I'm able to get to the exit door uninterrupted, so the only thing left
+    to do is to walk outside...\r\n\r\n1. Open the door"
+  nextStates:
+  - {fileID: 11400000, guid: a69f573b6dc4a1940a23a01c41d6ad1b, type: 2}

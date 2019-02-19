@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B10 Being Cautious
+  m_EditorClassIdentifier: 
+  storyText: "So I pause halfway through and go to the gate. I stick my head out and
+    see on one side few more cells and a dead end of a hallway. The other side leads
+    to the hallway that curves right by the wall that I'm trying to destroy.\r\n\r\nThe
+    guard is nowhere to be seen, so he must be somewhere around my hole. It's not
+    wise to just stroll out with him standing nearby. I should create a diversion
+    to lure him to the other end of the hallway.\r\n\r\nI think I saw some movement
+    in one of the cells on the other side of the hallway, is there someone?\r\n\r\n1.
+    Grab attention of another inmate\r\n\r\n2. Do something loud to attract guard"
+  nextStates:
+  - {fileID: 11400000, guid: c8ad2ca5a29e4fa4695d81197e4427b1, type: 2}
+  - {fileID: 11400000, guid: 5e2f7c2e0d62d41479661032efb2088a, type: 2}

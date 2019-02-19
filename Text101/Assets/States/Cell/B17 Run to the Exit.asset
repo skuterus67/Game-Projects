@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f8dfecd59ba164b90fae515df169e0, type: 3}
+  m_Name: B17 Run to the Exit
+  m_EditorClassIdentifier: 
+  storyText: "Fortunately, I'm a bit faster than the guard, so after a while he is
+    far behind me. But I don't know where the exit is, I'm just randomly choosing
+    ways at the crossroads. Suddenly, the guard behind me starts to shout and a moment
+    later my way is blocked by two more guards. I'm trapped and there is no way out
+    of this situation...\r\n\r\n1. Surrender and return to the cell"
+  nextStates:
+  - {fileID: 11400000, guid: 0731bbbb940fe8540855b2eb3078f5b5, type: 2}
