@@ -2,3 +2,4 @@ sceneSetups:
 - path: Assets/Scenes/Win Screen.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
